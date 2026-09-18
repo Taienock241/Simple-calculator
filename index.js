@@ -1,7 +1,11 @@
-let num1 = 20
-let num2 = 10
+function number1(){
+    let n1 = prompt("Enter a number") 
+    document.getElementById("num1").textContent = n1 
+}
+let num2 
 
-document.getElementById("num1").textContent = num1
+
+
 document.getElementById("num2").textContent = num2
 
 let sumEl = document.getElementById("sum-el");

@@ -6,9 +6,10 @@
     <title>simple calculator</title>
     <link rel="stylesheet" href="index.css">
 </head>
-<body>
-    <span id="num1"></span>
-    <span id="num2"></span>
+<body><div id="container">
+
+    <button id="num1" onclick="number1()" ><p id="first"></p> </button>
+    <button id="num2"> <p id="first"></p></button>
     <br>
     <button id="add" onclick="add()">Add</button>
     <button id="sub" onclick="subtract()" >Subtract</button>
@@ -16,6 +17,7 @@
     <button id="divide" onclick="divide()">Divide</button>
     <br>
     <span id="sum-el">Sum:</span>
+</div>
     <script src="index.js"></script>
 </body>
 </html>
