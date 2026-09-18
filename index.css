@@ -2,6 +2,7 @@ body{
     padding: 20px 0;
     text-align: center;
     margin: 0;
+    background-color: blue;
 }
 
 span{
@@ -38,3 +39,12 @@ background-color: white;
 
 }
 
+#container{
+    margin: auto;
+    width: 300px;
+    border: 2px solid black;
+    padding: 5%;
+    border-radius: 10px 20px;
+    background-color: white;
+       box-shadow: 0 0 15px 100px rgba(232, 13, 13, 0.2);
+}
